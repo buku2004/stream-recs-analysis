@@ -153,13 +153,7 @@ Focuses on the overall health of customer retention.
 * Average Watch Time
 * Average Completion Rate
 
-**Visuals include:**
-
-* Monthly churn trend
-* Churn by subscription plan
-* Churn by customer segment
-* Engagement vs churn
-* Revenue impact of churn
+<img width="1306" height="726" alt="image" src="https://github.com/user-attachments/assets/e1d52cd1-0d3b-4657-a0fe-8f6e340a7b76" />
 
 ---
 
@@ -176,15 +170,7 @@ Analyzes how customers interact with the platform.
 * Average Searches per User
 * Recommendation CTR
 
-**Visuals include:**
-
-* Watch-time trends
-* Completion-rate distribution
-* Device usage
-* Watch time by subscription plan
-* Active vs churned behaviour
-* Recommendation CTR by type
-* Recommendation performance by algorithm version
+<img width="1301" height="725" alt="image" src="https://github.com/user-attachments/assets/7a48fa6d-c2d1-4630-bd71-6f14d16b343f" />
 
 ---
 
@@ -202,6 +188,9 @@ Analyzes customer distribution and churn across the USA and Canada.
 
 A country → state/province drill-down allows deeper geographical analysis.
 
+<img width="1305" height="721" alt="image" src="https://github.com/user-attachments/assets/c65a480d-9fc9-494e-8396-707fdc860975" />
+
+
 ---
 
 ### 4. Content Analytics
@@ -217,6 +206,9 @@ Examines how content performance and customer sentiment vary across the platform
 * Sentiment score by genre
 * Original vs licensed content
 * Recommendation performance
+
+  <img width="1265" height="699" alt="image" src="https://github.com/user-attachments/assets/b09afd44-2379-4b61-a247-1603f9461b07" />
+
 
 ---
 
