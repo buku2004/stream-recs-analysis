@@ -22,8 +22,6 @@ PostgreSQL Business Analysis
 Power BI Dashboards
    ↓
 Machine Learning Churn Prediction
-   ↓
-Customer Risk Segmentation
 ```
 
 ---
@@ -210,20 +208,6 @@ Examines how content performance and customer sentiment vary across the platform
   <img width="1265" height="699" alt="image" src="https://github.com/user-attachments/assets/b09afd44-2379-4b61-a247-1603f9461b07" />
 
 
----
-
-### 5. Churn Prediction & Customer Risk
-
-Combines machine-learning predictions with business analytics.
-
-**Key metrics:**
-
-* Predicted high-risk customers
-* Average churn probability
-* Churn risk distribution
-* Model performance
-
-A customer-level table highlights users with high predicted churn probability.
 
 ---
 
@@ -304,6 +288,8 @@ Models are evaluated using:
 
 Since this is a churn problem, **Recall and F1-score** are given particular importance because failing to identify an actual churner can result in missed retention opportunities.
 
+## RESULT: F1 score around 0.21 and Precision around 0.15 indicates that these models perform very poorly. The main reason behind this is no correlation between Features and label.
+
 ---
 
 ## 🔎 Feature Importance
@@ -322,29 +308,6 @@ The analysis focuses on factors such as:
 * User ratings
 
 > **Note:** Since the dataset is synthetic, model findings represent patterns within the dataset and should not be interpreted as causal relationships in real Netflix customer behaviour.
-
----
-
-# 📈 Customer Risk Segmentation
-
-The final model generates a churn probability for each customer.
-
-Example:
-
-| User  | Churn Probability | Risk        |
-| ----- | ----------------: | ----------- |
-| U1023 |               91% | High Risk   |
-| U4821 |               74% | High Risk   |
-| U1920 |               46% | Medium Risk |
-| U3810 |               12% | Low Risk    |
-
-Customers can then be grouped into:
-
-* 🔴 **High Risk**
-* 🟡 **Medium Risk**
-* 🟢 **Low Risk**
-
-These predictions can be incorporated into Power BI to create an actionable customer-risk view.
 
 ---
 
@@ -394,9 +357,6 @@ This project demonstrates an end-to-end approach to solving a customer retention
 * Feature engineering
 * Classification modelling
 * Model evaluation
-* Customer risk prediction
-
-The final objective is to move from simply **describing churn** to identifying **which customers are at risk and what behavioural patterns are associated with that risk**.
 
 ---
 
